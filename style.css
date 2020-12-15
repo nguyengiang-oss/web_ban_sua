@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    width: 600px;
+    height: 830px;
+    margin: auto;
+}
+#banner {
+    width: 600px;
+    height: 116px;
+    background-color: aquamarine;
+}
+#menu {
+    width: 600px;
+    height: 30px;
+    background-color: bisque;
+}
+    #menu ul{
+       list-style-type: none;
+    }
+        #menu ul li{
+            display: inline;
+            width: 98px;
+            height: 30px;
+            float: left;
+            border-left: 2px solid #ffffff;
+            text-align: center;
+            line-height: 30px;
+        }
+            #menu ul li a{
+                text-decoration: none;
+            }
+   
+.content {
+    width: 600px;
+    height: 651px;
+}
+    #left {
+        width: 108px;
+        height: 651px;
+        float: left;
+        background-color: #498fcd;
+    }
+        #left ul{
+           list-style-type: none;
+           background-color: #ffffff;
+           width: 108px;
+           height: 106px;
+        }
+            #left ul li{
+                width: 108px;
+                height: 20px;
+                line-height: 20px;
+                background-color: #4b90cd;
+                margin: 1px;
+            }
+                #left ul li a{
+                   text-decoration: none;
+                   padding-left: 20px;
+                   color: #ffffff;
+                }
+                #left img {
+                   display: block;
+                }
+                #left ul li:hover{
+                    background-color: #4f883e;
+                 }
+                #left ul li a:hover{
+                    color: #eae322;
+                 }
+    #center {
+        width: 385px;
+        height: 641px;
+        float: left;
+        display: block;
+        padding-top: 10px;
+    }
+        #center b {
+            width: 385px;
+            float: left;
+            padding-bottom: 5px;
+        }
+        #center_all {
+            width: 385px;
+            height: 108px;
+            float: left;
+            padding-bottom: 20px;
+        }
+            #center_img {
+                float: left;
+                width: 139px;
+            }
+            #center_text {
+                float: left;
+                width: 236px;
+                font-size: 15px;
+                font-weight: bold;
+                padding-left: 10px;
+                color: #439f46;
+            }
+    #right {
+        width: 107px;
+        height: 651px;
+        float: left;
+        background-image: url(images/bg_sua.jpg);
+    }
+#clr {
+    clear: both;
+}
+#footer {
+    width: 492px;
+    height: 33px;
+    background-color: #3c57a7;
+    padding-left: 108px;
+}
+#footer span {
+    width: 220px;
+    height: auto; 
+    float: left;
+    font-size: 12px;
+    color: yellow;
+    padding-top: 2px;
+}
